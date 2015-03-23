@@ -1,17 +1,19 @@
-.body{
-	background-color: #EAEAEA;
+.body {
+    background-color: #EAEAEA;
+}
+/* Form Login */
+
+.login {
+    margin-top: 40px;
 }
 
-/* Form Login */
-.login{
-	margin-top: 40px;
+.login h2 {
+    margin-bottom: 30px;
 }
-.login h2{
-	margin-bottom: 30px;
-}
-.boxed{
-  background-color: #fff;
-  padding: 60px 40px 20px;
+
+.boxed {
+    background-color: #fff;
+    padding: 60px 40px 20px;
 }
 
 .boxed .input-group {
@@ -19,29 +21,29 @@
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.boxed .form-control,.boxed .btn{
-	border-radius: 2px;
+
+.boxed .form-control,
+.boxed .btn {
+    border-radius: 2px;
 }
 
-.boxed .input-group .form-control
-{
-	  padding: 20px 10px;
+.boxed .input-group .form-control {
+    height: 45px;
 }
 
-.boxed .btn{
-	margin-top: 35px;
-	padding: 10px;
+.boxed .btn {
+    margin-top: 35px;
+    padding: 10px;
 }
+
 .input-group-addon {
     width: 45px;
 }
-
 /* End Form Login*/
-
 /* home page */
-.home-page{
 
-}
+.home-page {}
+
 nav.fixed-bar {
     background: #2C3E50;
     position: fixed;
@@ -50,26 +52,28 @@ nav.fixed-bar {
     z-index: 99;
     padding: 10px;
 }
-.title-site{
-  font-size: 18px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+
+.title-site {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.title-site a{
-	color: #fff;
-}
-.content{
-	margin-top: 60px;
+.title-site a {
+    color: #fff;
 }
 
-.footer{
-	border-top: 1px solid #ccc;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	padding: 20px;
+.content {
+    margin-top: 60px;
+}
+
+.footer {
+    border-top: 1px solid #ccc;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
 }
 /* end home page */
 
